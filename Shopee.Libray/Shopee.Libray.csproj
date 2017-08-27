@@ -44,10 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\Enum\ExecuteServiceEnum.cs" />
+    <Compile Include="DataBeans\Item\AddBean.cs" />
     <Compile Include="DataBeans\Item\AddItemImgBean.cs" />
     <Compile Include="DataBeans\Item\DeleteItemImgBean.cs" />
     <Compile Include="DataBeans\Item\GetAttributesBean.cs" />
     <Compile Include="DataBeans\Item\GetCategoriesBean.cs" />
+    <Compile Include="DataBeans\Item\GetItemDetailBean.cs" />
     <Compile Include="DataBeans\Item\GetItemsListBean.cs" />
     <Compile Include="DataBeans\Item\UpdateItemBean.cs" />
     <Compile Include="DataBeans\Item\UpdatePriceBean.cs" />
