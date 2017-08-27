@@ -44,9 +44,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\Enum\ExecuteServiceEnum.cs" />
-    <Compile Include="DataBeans\Order\CancelOrder.cs" />
+    <Compile Include="DataBeans\Item\AddItemImgBean.cs" />
+    <Compile Include="DataBeans\Item\DeleteItemImgBean.cs" />
+    <Compile Include="DataBeans\Item\GetAttributesBean.cs" />
+    <Compile Include="DataBeans\Item\GetCategoriesBean.cs" />
+    <Compile Include="DataBeans\Item\GetItemsListBean.cs" />
+    <Compile Include="DataBeans\Item\UpdateItemBean.cs" />
+    <Compile Include="DataBeans\Item\UpdatePriceBean.cs" />
+    <Compile Include="DataBeans\Item\UpdateStockBean.cs" />
+    <Compile Include="DataBeans\Item\UpdateVariationPriceBean.cs" />
+    <Compile Include="DataBeans\Item\UpdateVariationStockBean.cs" />
+    <Compile Include="DataBeans\Order\CancelOrderBean.cs" />
     <Compile Include="DataBeans\Order\GetEscrowDetailsBean.cs" />
-    <Compile Include="DataBeans\Order\GetOrderDetails.cs" />
+    <Compile Include="DataBeans\Order\GetOrderDetailsBean.cs" />
     <Compile Include="DataBeans\Order\GetOrdersListBean.cs" />
     <Compile Include="DataBeans\ReturnModel.cs" />
     <Compile Include="DataBeans\Template\Request\UserBean.cs" />
@@ -91,7 +101,6 @@
     <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DataBeans\Item\" />
     <Folder Include="DataBeans\Logistics\" />
   </ItemGroup>
   <ItemGroup>
