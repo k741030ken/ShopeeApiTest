@@ -18,7 +18,7 @@ namespace Shopee.Libray.DataBeans.Item
     #endregion
 
     #region CategoriesBean
-    public class CategorieBean
+    public class CategoriesBean
     {
         public string Error { get; set; }
 

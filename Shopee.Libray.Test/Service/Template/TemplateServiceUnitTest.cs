@@ -39,7 +39,7 @@ namespace Shopee.Libray.Service.Template.Tests
                 },
             };
                 user.Citys = citys;
-                var templateService = Shopee.Libray.Service.ShopeeFactory.Instance().templateService;
+                var templateService = Shopee.Libray.Service.ShopeeFactory.Instance().TemplateService;
                 var data = templateService.GetBikeAvailabilityData(user);
                 if (data.IsSuccess)
                 {
