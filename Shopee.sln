@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{364242EE-BDC9-424E-9944-89A89182CA98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopee.Libray.Test", "Shopee.Libray.Test\Shopee.Libray.Test.csproj", "{9F769F7A-6CAF-41FE-9383-086E12D5A65E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopee.Libray", "Shopee.Libray\Shopee.Libray.csproj", "{5536292E-B623-494C-93A3-8EF7236E66B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{364242EE-BDC9-424E-9944-89A89182CA98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{364242EE-BDC9-424E-9944-89A89182CA98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{364242EE-BDC9-424E-9944-89A89182CA98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{364242EE-BDC9-424E-9944-89A89182CA98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F769F7A-6CAF-41FE-9383-086E12D5A65E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F769F7A-6CAF-41FE-9383-086E12D5A65E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F769F7A-6CAF-41FE-9383-086E12D5A65E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F769F7A-6CAF-41FE-9383-086E12D5A65E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5536292E-B623-494C-93A3-8EF7236E66B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5536292E-B623-494C-93A3-8EF7236E66B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5536292E-B623-494C-93A3-8EF7236E66B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5536292E-B623-494C-93A3-8EF7236E66B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

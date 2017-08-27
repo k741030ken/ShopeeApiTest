@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Shopee.Libray.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Path" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://partner.shopeemobile.com</Value>
+    </Setting>
+    <Setting Name="Api_Add" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">/api/v1/item/add</Value>
+    </Setting>
+    <Setting Name="TemplatePath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://ptx.transportdata.tw</Value>
+    </Setting>
+    <Setting Name="TemplateApiAction" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">/MOTC/v2/Bike/Availability/Taipei</Value>
+    </Setting>
+    <Setting Name="ApiTimeOutSet" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
