@@ -27,7 +27,7 @@ namespace Shopee.Libray.DataBeans.Item
 
         public UInt32? Days_To_Ship { get; set; }
 
-        public List<Variation> Variations { get; set; }
+        public List<UpdateItemVariation> Variations { get; set; }
     } 
     #endregion
 
@@ -38,8 +38,8 @@ namespace Shopee.Libray.DataBeans.Item
     }
     #endregion
 
-    #region Variation
-    public class Variation
+    #region UpdateItemVariation
+    public class UpdateItemVariation
     {
         public UInt32 Variation_Id { get; set; }
 

@@ -24,12 +24,12 @@ namespace Shopee.Libray.DataBeans.Item
     {
         public string Error { get; set; }
 
-        public List<Attribute> Attributes { get; set; }
+        public List<GetAttributesAttribute> Attributes { get; set; }
     } 
     #endregion
 
-    #region Attribute
-    public class Attribute
+    #region GetAttributesAttribute
+    public class GetAttributesAttribute
     {
         public UInt32 Attribute_Id { get; set; }
 
