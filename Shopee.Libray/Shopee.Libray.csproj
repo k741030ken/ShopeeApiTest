@@ -44,6 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\Enum\ExecuteServiceEnum.cs" />
+    <Compile Include="DataBeans\Order\CancelOrder.cs" />
+    <Compile Include="DataBeans\Order\GetEscrowDetailsBean.cs" />
+    <Compile Include="DataBeans\Order\GetOrderDetails.cs" />
+    <Compile Include="DataBeans\Order\GetOrdersListBean.cs" />
     <Compile Include="DataBeans\ReturnModel.cs" />
     <Compile Include="DataBeans\Template\Request\UserBean.cs" />
     <Compile Include="DataBeans\Template\Response\BikeAvailabilityBean.cs" />
@@ -87,12 +91,8 @@
     <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DataBeans\Item\Request\" />
-    <Folder Include="DataBeans\Item\Response\" />
-    <Folder Include="DataBeans\Logistics\Request\" />
-    <Folder Include="DataBeans\Logistics\Response\" />
-    <Folder Include="DataBeans\Order\Request\" />
-    <Folder Include="DataBeans\Order\Response\" />
+    <Folder Include="DataBeans\Item\" />
+    <Folder Include="DataBeans\Logistics\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj">
